@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterViewActivi"
+    android:background="@drawable/bg4">
+
+    <Button
+        android:id="@+id/finish_interview_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="終了"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next_interview_button"
+        app:layout_constraintVertical_bias=".5" />
+
+    <Button
+        android:id="@+id/next_interview_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="次の質問"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias=".5" />
+
+    <TextView
+        android:id="@+id/question_interview_content"
+        android:gravity="center"
+        android:text="ここに質問が表示されます"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/text_color"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:background="@drawable/edit_text_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/person"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_interview_content"
+        app:layout_constraintVertical_bias=".2" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

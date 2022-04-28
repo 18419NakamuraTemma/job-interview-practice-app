@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FBB2EC</color>
+    <color name="colorPrimaryDark">#FF2DE9</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="pink">#FBB2EC</color>
+    <color name="sub_pink">#FF2DE9</color>
+    <color name="text_color">#cfcfcf</color>
+
+</resources>

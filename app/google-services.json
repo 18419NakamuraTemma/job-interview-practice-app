@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "424186187732",
+    "firebase_url": "https://interviewapp-154be-default-rtdb.firebaseio.com",
+    "project_id": "interviewapp-154be",
+    "storage_bucket": "interviewapp-154be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424186187732:android:2cd55d72e2119def42d041",
+        "android_client_info": {
+          "package_name": "com.toba18419.interview_practice_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424186187732-ntj41sh3912hl0rr9k2lfdbs1ffsr24k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWGO7ukeCpBC9k2Tshd3a0nS4TCVhg1Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424186187732-ntj41sh3912hl0rr9k2lfdbs1ffsr24k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
