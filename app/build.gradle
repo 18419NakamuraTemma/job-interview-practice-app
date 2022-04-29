@@ -19,7 +19,7 @@ android {
             pip{
                 install "tweepy"
             }
-            buildPython "C:/Users/tatsu/AppData/Local/Programs/Python/Python37/python.exe"
+            buildPython "your/python/path"
         }
         sourceSets{
             main{
