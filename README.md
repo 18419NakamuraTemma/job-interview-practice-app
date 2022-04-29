@@ -1,3 +1,4 @@
 # 就職面接対策Androidアプリ
-就職面接対策向けの簡単なAndroidアプリです。
+
+This application is released under the MIT License, see LICENSE..
 
